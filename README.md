@@ -5,20 +5,38 @@
 
 ## Install Web3 ##
 ``` pip3 install web3 ```
-##  ##
+## Create an .env file and import items to it  ##
 
-##  ##
+<img width="611" alt="Screenshot 2022-12-14 at 16 09 46" src="https://user-images.githubusercontent.com/118826262/207647890-2c7d078e-2a42-4de5-9668-71f278e6b517.png">
 
-##  ##
+INFURA_URL is the URL we will use to gain access to Infura’s ethereum nodesCONTRACT_ADDRESS is the address of your deployed token smart contractOWNER_ADDRESS is the address you used to deploy the contractSUPER_SECRET_PRIVATE_KEY is your OWNER_ADDRESS private key (from metamask)
+
+
+## Imports ##
+<img width="459" alt="Screenshot 2022-12-14 at 16 12 01" src="https://user-images.githubusercontent.com/118826262/207648756-e0b60a19-50ec-4d35-aeab-9fc6e34b0406.png">
+
+Import web3 and config from decouple and config gives us he .env functionality.
+
+## Set up envronment variables ##
+
+<img width="611" alt="Screenshot 2022-12-14 at 16 09 46" src="https://user-images.githubusercontent.com/118826262/207647890-2c7d078e-2a42-4de5-9668-71f278e6b517.png">
+
+Setup the following variables as shown in the figure. abi can be found on the etherscan website. refer the following diagram.
+
+<img width="1101" alt="Screenshot 2022-12-14 at 16 18 21" src="https://user-images.githubusercontent.com/118826262/207650240-9b8083c9-1c9c-4642-b2f9-499900bb2387.png">
+
+## Run the eth_transfer.py file ##
+
+``` python3 eth_transfer.py ```
 
 ## Build an Image ##
 
-```docker build --tag nci02 .```
+```docker build --tag [repositoryName]/[imageName]:tagName .```
 
 
 ## Run an image ##
 
-```docker run --name ncilab02 -p 8090:8080 nci02```
+```docker run --name [repositoryName] -p 8090:8080 [imageName]```
 
 ## Run the curl command ##
 
