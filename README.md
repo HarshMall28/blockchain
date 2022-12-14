@@ -1,3 +1,20 @@
+## Prerequisites ##
+1. Create an account on MetaMask
+<img width="359" alt="Metamask" src="https://user-images.githubusercontent.com/118826262/207653934-30631c55-505c-416e-a0dd-8642c3b233e4.png">
+
+
+
+2. Create a contract on Remix IDE
+
+<img width="1440" alt="deploy" src="https://user-images.githubusercontent.com/118826262/207654009-a3ea2296-2d0d-40f1-8665-d4dbe049fd29.png">
+
+
+
+3. Get the contract address from Etherscan website
+
+<img width="1440" alt="Etherscan" src="https://user-images.githubusercontent.com/118826262/207654363-e7e11cc2-4898-40ea-91fe-0442c7545403.png">
+
+
 ## Install python on your system via packager or from the web ##
 
 ## Install pip3 ##
