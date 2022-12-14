@@ -5,6 +5,15 @@
 
 ## Install Web3 ##
 ``` pip3 install web3 ```
+
+For mac users
+
+``` python3 -m pip install web3 ```
+
+
+## Install decouple ##
+``` pip3 install python-decouple ```
+
 ## Create an .env file and import items to it  ##
 
 <img width="611" alt="Screenshot 2022-12-14 at 16 09 46" src="https://user-images.githubusercontent.com/118826262/207647890-2c7d078e-2a42-4de5-9668-71f278e6b517.png">
